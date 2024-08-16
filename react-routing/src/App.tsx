@@ -10,9 +10,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/login' element={<LoginPage />} />
-          <Route path='/about' element={ <About /> } />
+          <Route path='/react-routing' element={<Home />} />
+          <Route path='/react-routing/login' element={<LoginPage />} />
+          <Route path='/react-routing/about' element={ <About /> } />
         </Routes>
       </BrowserRouter>
     </>
